@@ -9,7 +9,7 @@ class Current {
   final int pressure;
   final int humidity;
   final double dewPoint;
-  final double uvi;
+  final num uvi;
   final int clouds;
   final int visibility;
   final double windSpeed;

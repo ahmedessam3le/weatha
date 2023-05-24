@@ -12,12 +12,23 @@ class TemperatureModel extends Temperature {
 
   factory TemperatureModel.fromJson(Map<String, dynamic> json) {
     return TemperatureModel(
-      minimum: json['min'],
-      maximum: json['max'],
-      day: json['day'],
-      morning: json['morn'],
-      evening: json['eve'],
-      night: json['night'],
+      minimum: json['min'] ?? 0,
+      maximum: json['max'] ?? 0,
+      day: json['day'] ?? 0,
+      morning: json['morn'] ?? 0,
+      evening: json['eve'] ?? 0,
+      night: json['night'] ?? 0,
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['day'] = day;
+    data['min'] = minimum;
+    data['max'] = maximum;
+    data['night'] = night;
+    data['eve'] = evening;
+    data['morn'] = morning;
+    return data;
   }
 }

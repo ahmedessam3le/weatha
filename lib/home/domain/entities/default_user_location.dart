@@ -1,4 +1,11 @@
 class DefaultUserLocation {
-  String country = 'Egypt', city = 'Cairo';
-  double latitude = 30.1419, longitude = 31.6285;
+  final String country, city;
+  final double latitude, longitude;
+
+  DefaultUserLocation({
+    this.country = 'Egypt',
+    this.city = 'Cairo',
+    this.latitude = 30.1419,
+    this.longitude = 31.6285,
+  });
 }

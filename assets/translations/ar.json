@@ -1,0 +1,27 @@
+{
+  "weather_app": "تطبيق الطقس",
+  "about_app": "حول التطبيق",
+  "created_by": "انشأ من قبل",
+  "author_name": "احمد عصام",
+  "using_flutter": "باستخدام Flutter",
+  "version": "إصدار",
+  "not_specified": "غير محدد",
+  "more": "أكثر",
+  "hourly_weather": "الطقس كل ساعة",
+  "weather_by_day": "الطقس في اليوم",
+  "something_went_wrong": "هناك خطأ ما",
+  "month": {
+    "jan": "يناير",
+    "feb": "فبراير",
+    "mar": "مارس",
+    "apr": "أبريل",
+    "may": "مايو",
+    "jun": "يونيو",
+    "jul": "يوليو",
+    "aug": "أغسطس",
+    "sept": "سبتمبر",
+    "oct": "أكتوبر",
+    "nov": "نوفمبر",
+    "dec": "ديسمبر"
+  }
+}

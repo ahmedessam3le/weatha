@@ -1,6 +1,6 @@
 class AppStrings {
   // Main
-  static const String appName = 'Weather App';
+  static const String appName = 'Weatha';
   static const String aboutApp = 'about_app';
   static const String createdBy = 'created_by';
   static const String authorName = 'author_name';

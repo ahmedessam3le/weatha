@@ -1,5 +1,5 @@
 class Temperature {
-  final double minimum, maximum, day, morning, evening, night;
+  final num minimum, maximum, day, morning, evening, night;
 
   Temperature({
     required this.minimum,

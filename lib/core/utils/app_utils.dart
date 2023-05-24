@@ -5,6 +5,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:weatha/core/const/app_strings.dart';
 
+import '../../home/domain/entities/local_names.dart';
 import '../const/app_values.dart';
 import '../style/app_colors.dart';
 
@@ -105,6 +106,15 @@ class AppUtils {
 
   static Uri? getUri(String url) {
     return Uri.tryParse(url);
+  }
+
+  static getCityByLang(LocalNames localNames) {
+    switch (getLanguageCode()) {
+      case AppValues.langCodeAr:
+        return localNames.ar;
+      default:
+        return localNames.en;
+    }
   }
 
   static Future<void> futureDelayed({int m = 1000}) async {

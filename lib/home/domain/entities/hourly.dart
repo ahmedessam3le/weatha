@@ -2,7 +2,7 @@ import 'package:weatha/home/domain/entities/weather.dart';
 
 class Hourly {
   final int dateTime;
-  final double temperature;
+  final num temperature;
   final List<Weather> weather;
 
   Hourly({

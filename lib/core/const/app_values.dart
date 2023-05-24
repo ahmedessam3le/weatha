@@ -40,4 +40,8 @@ class AppValues {
 
   /// default location
   static final DefaultUserLocation defaultLocation = DefaultUserLocation();
+
+  static const String currentLocationKey = 'currentLocationKey';
+
+  static const String lastForecastKey = 'lastForecastKey';
 }

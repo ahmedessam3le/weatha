@@ -17,8 +17,8 @@ class DioHelper {
     final Dio dio = Dio(BaseOptions(
       baseUrl: AppValues.baseUrl,
       headers: <String, dynamic>{},
-      connectTimeout: const Duration(minutes: 2),
-      receiveTimeout: const Duration(minutes: 2),
+      connectTimeout: 120 * 1000,
+      receiveTimeout: 120 * 1000,
     ));
 
     if (!kReleaseMode) {
